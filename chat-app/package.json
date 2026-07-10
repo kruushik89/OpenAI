@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node -r ts-node/register --env-file=.env src/basic-chat/index.ts"
+    "start": "node -r ts-node/register --env-file=.env src/tools/index.ts",
+    "start:flight": "node -r ts-node/register --env-file=.env src/tools/flight-assistant.ts"
   },
   "keywords": [],
   "author": "",
